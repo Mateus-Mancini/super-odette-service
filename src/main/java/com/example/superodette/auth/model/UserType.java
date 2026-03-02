@@ -14,7 +14,7 @@ import lombok.Setter;
 public class UserType {
 
     @Id
-    @Column(name = "ncdtipoUsuario")
+    @Column(name = "ncdtipousuario")
     private Integer id;
 
     @Column(name = "cdescricao", nullable = false, unique = true, length = 50)

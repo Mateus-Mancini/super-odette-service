@@ -48,9 +48,6 @@ public class AuthController {
 
     @GetMapping("/me")
     public ResponseEntity<?> me(@CurrentUser SessionData sessionData) {
-        if (sessionData == null)
-            return ResponseEntity.status(401).body(Map.of("error", "Invalid session"));
-
         return ResponseEntity.ok(Map.of(
                 "name", sessionData.getUsername(),
                 "email", sessionData.getEmail(),
