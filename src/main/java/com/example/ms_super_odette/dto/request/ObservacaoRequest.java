@@ -5,7 +5,10 @@ import jakarta.validation.constraints.Size;
 import lombok.*;
 import java.time.LocalDateTime;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ObservacaoRequest {
     @NotNull(message = "Código da observação é obrigatório")
     private Long cdObservacao;
