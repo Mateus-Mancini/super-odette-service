@@ -1,4 +1,4 @@
-package com.example.superodette.subject.model;
+package com.example.superodette.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
