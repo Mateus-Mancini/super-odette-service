@@ -1,7 +1,7 @@
 package com.example.ms_super_odette.schedule.repository;
 
 import com.example.ms_super_odette.schedule.model.Schedule;
-import com.example.superodette.classgroup.model.ClassGroup;
+import com.example.ms_super_odette.classgroup.model.ClassGroup;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package com.example.ms_super_odette.config;
 
-import com.example.superodette.auth.session.SessionAuthenticationFilter;
+import com.example.ms_super_odette.auth.session.SessionAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

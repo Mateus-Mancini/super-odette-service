@@ -1,6 +1,6 @@
 package com.example.ms_super_odette.config;
 
-import com.example.superodette.auth.resolver.CurrentUserArgumentResolver;
+import com.example.ms_super_odette.auth.resolver.CurrentUserArgumentResolver;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

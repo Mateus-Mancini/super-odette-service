@@ -1,8 +1,8 @@
 package com.example.ms_super_odette.schedule.model;
 
-import com.example.superodette.auth.model.User;
-import com.example.superodette.classgroup.model.ClassGroup;
-import com.example.superodette.subject.model.Subject;
+import com.example.ms_super_odette.auth.model.User;
+import com.example.ms_super_odette.classgroup.model.ClassGroup;
+import com.example.ms_super_odette.subject.model.Subject;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

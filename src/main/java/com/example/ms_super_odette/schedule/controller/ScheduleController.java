@@ -1,8 +1,8 @@
 package com.example.ms_super_odette.schedule.controller;
 
 import com.example.ms_super_odette.schedule.service.ScheduleDispatcher;
-import com.example.superodette.auth.annotation.CurrentUser;
-import com.example.superodette.auth.session.SessionData;
+import com.example.ms_super_odette.auth.annotation.CurrentUser;
+import com.example.ms_super_odette.auth.session.SessionData;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
