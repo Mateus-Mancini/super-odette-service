@@ -1,6 +1,6 @@
 package com.example.ms_super_odette.config;
 
-import com.example.superodette.auth.session.SessionData;
+import com.example.ms_super_odette.model.SessionData;
 import org.springframework.aot.hint.MemberCategory;
 import org.springframework.aot.hint.RuntimeHints;
 import org.springframework.aot.hint.RuntimeHintsRegistrar;

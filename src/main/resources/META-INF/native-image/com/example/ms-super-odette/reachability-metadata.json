@@ -1,0 +1,20 @@
+{
+  "reflection": [
+    {
+      "type": "java.util.UUID[]"
+    },
+    {
+      "type": "org.hibernate.internal.EntityManagerMessageLogger"
+    },
+    {
+      "type": "org.hibernate.internal.CoreMessageLogger"
+    }
+  ],
+  "jdkProxies": [
+    ["org.hibernate.internal.EntityManagerMessageLogger"],
+    ["org.hibernate.internal.CoreMessageLogger"]
+  ],
+  "includes": [
+    { "pattern": "META-INF/maven/redis.clients/jedis/pom.properties" }
+  ]
+}
