@@ -1,0 +1,34 @@
+[
+  {
+    "name": "org.hibernate.internal.EntityManagerMessageLogger",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.internal.CoreMessageLogger",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.internal.HEMLogging",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.postgresql.Driver",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.postgresql.util.PGobject",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.util.UUID[]"
+  }
+]

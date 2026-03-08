@@ -1,11 +1,15 @@
 package com.example.ms_super_odette.dto.response;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 
-@Data @AllArgsConstructor
+import java.util.List;
+
+@Getter
+@AllArgsConstructor
 public class LoginResponse {
-    private String token;
-    private String tipo;
-    private String nome;
+    private String sessionId;
+    private String name;
+    private String email;
+    private List<String> roles;
 }

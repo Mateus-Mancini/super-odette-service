@@ -1,15 +1,26 @@
 package com.example.ms_super_odette.dto.response;
 
-import lombok.*;
-import java.time.LocalTime;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class GradeResponse {
-    private Long cdGrade;
-    private Long cdTurma;
-    private Long cdDisciplina;
-    private Long cdProfessor;
-    private LocalTime hrInicio;
-    private LocalTime hrFim;
-    private Integer diaSemana;
+
+    private Long subjectId;
+    private String subjectName;
+
+    private BigDecimal firstSemester;
+    private BigDecimal secondSemester;
+    private BigDecimal average;
+
+    private Long studentId;
+    private String studentName;
 }

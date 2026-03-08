@@ -1,29 +1,30 @@
 package com.example.ms_super_odette.dto.request;
 
+import jakarta.validation.constraints.DecimalMax;
+import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotNull;
-import lombok.*;
-import java.time.LocalTime;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+@NoArgsConstructor
 public class GradeRequest {
-    @NotNull(message = "Código da grade é obrigatório")
-    private Long cdGrade;
 
-    @NotNull(message = "Código da turma é obrigatório")
-    private Long cdTurma;
+    @NotNull(message = "O ID do aluno é obrigatório.")
+    private Long studentId;
 
-    @NotNull(message = "Código da disciplina é obrigatório")
-    private Long cdDisciplina;
+    @NotNull(message = "O ID da disciplina é obrigatório.")
+    private Long subjectId;
 
-    @NotNull(message = "Código do professor é obrigatório")
-    private Long cdProfessor;
+    @DecimalMin(value = "0.0", message = "A nota deve ser no mínimo 0.")
+    @DecimalMax(value = "10.0", message = "A nota deve ser no máximo 10.")
+    private BigDecimal firstSemester;
 
-    @NotNull(message = "Hora de início é obrigatória")
-    private LocalTime hrInicio;
-
-    @NotNull(message = "Hora de fim é obrigatória")
-    private LocalTime hrFim;
-
-    @NotNull(message = "Dia da semana é obrigatório (1-7)")
-    private Integer diaSemana;
+    @DecimalMin(value = "0.0", message = "A nota deve ser no mínimo 0.")
+    @DecimalMax(value = "10.0", message = "A nota deve ser no máximo 10.")
+    private BigDecimal secondSemester;
 }
